@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="shortcut icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="playlist.css">
+
+</head>
+
+<body>
+    <div class="main-body d-flex justify-content-between align-items-center">
+
+        <!-- left side -->
+        <div class="category d-flex mt-5">
+            <div class="logo my-4 mx-5 mt-5">
+                <a href="#">
+                    <img src="./Images/Spotify logo.png" alt="logo" class="w-100 ">
+                </a>
+            </div>
+
+            <!-- home search -->
+            <div class="nav-items mb-4">
+                <div class="flex-logo d-flex justify-content-start align-items-center mx-5 ">
+                    <img src="./Images/home.png" alt="Home">
+                    <p class="mx-4 my-2 ">Home</p>
+                </div>
+                <div class="flex-logo d-flex justify-content-start align-items-center mx-5">
+                    <img src="./Images/search.png" alt="Search">
+                    <p class="mx-4 my-2 ">Search</p>
+                </div>
+                <div class="flex-logo d-flex justify-content-start align-items-center mx-5">
+                    <img src="./Images/playlist.png" alt="Library">
+                    <p class="mx-4 my-2 ">Your Library</p>
+                </div>
+            </div>
+
+            <!-- playlist tag -->
+            <div class="playlist-tag mx-5 mb-3">PLAYLISTS</div>
+
+            <!-- MEDIA -->
+            <div class="nav-items mb-4">
+                <div class="flex-logo d-flex justify-content-start align-items-center mx-5">
+                    <img src="./Images/plus.png" alt="ADD">
+                    <p class="mx-4 my-2 ">Create Playlist</p>
+                </div>
+                <div class="flex-logo d-flex justify-content-start align-items-center mx-5">
+                    <img src="./Images/heart.png" alt="Heart">
+                    <p class="mx-4 my-2 ">Liked Songs</p>
+                </div>
+                <div class="line mx-5"></div>
+            </div>
+            <img src="./Images/album art.png" alt="#" class="bottom-pic ">
+        </div>
+        <!-- hero Section -->
+        <div class="main-content mt-0">
+            <div class="pop d-flex justify-content-start align-items-start">
+                <img src="./Images/pop.png" alt="Pop Image" class="pop-img">
+                <div class="pop-playlist d-flex flex-column justify-content-start">
+                    <p class="pop-heading">PLAYLIST</p>
+                    <h1>Pop Right Now</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
+                    <div class="last-line d-flex justify-content-start align-items-center">
+                        <p class="bold-spotify fw-bold pb-1" style="color: white; font-size: 15px;">Spotify</p>
+                        <p class="mx-1 fw-bold" style="color: white;">.</p>
+                        <p>860,305 likes</p>
+                        <p class="mx-1 fw-bold" style="color: white;">.</p>
+                        <p>100 songs, 5 hr 5 min</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- play -->
+            <div class="song-sec">
+                <div class="button-sec d-flex justify-content-start align-items-center">
+                    <div class="green-btn ms-5 d-flex align-items-center justify-content-center"><i
+                            class="fa-solid fa-play fs-3 " style="color: #ffffff;"></i></div>
+                    <i class="fa-regular fa-heart fs-2 mx-4" style="color: #bdbfbf;"></i>
+                    <i class="fa-solid fa-ellipsis fs-2" style="color: #bdbfbf;"></i>
+                </div>
+
+                <!-- songs -->
+                <div class="song-list mb-5">
+                    <table class="list-table ms-5 my-4">
+                        <tr class="song-index " style="border-bottom: 1px solid #686e6c;">
+                            <th style="width: 2%;">#</th>
+                            <th class="text-start" style="width: 38%;">TITLE</th>
+                            <th>ALBUM</th>
+                            <th>DATE ADDED</th>
+                        </tr>
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3"><i class="fa-solid fa-play " style="color: #ffffff;"></i></td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Heeriye.jpg" alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Heeriye</h6>
+                                    <p>Arijit Singh</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Heeriye (feat. Arijit Singh)</td>
+                            <td class="album-info ">15 August 2023</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">5:42</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">2</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Chhichhore-Hindi-2019-20190904104023-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Khairiyat</h6>
+                                    <p>Arijit Singh</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Chhichhore (feat. Arijit Singh)</td>
+                            <td class="album-info ">9 October 2019</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">3:59</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">3</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Ghar-Se-Nikalte-Hi-Hindi-2018-20180407081907-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Ghar Se Nikalte Hi</h6>
+                                    <p>Armaan Malik</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Ghar Se Nikalte Hi (feat. Armaan Malik)</td>
+                            <td class="album-info ">03 February 2018</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">5:03</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">4</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Bhool-Bhulaiyaa-Hindi-2007-20221122005742-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Labon Ko</h6>
+                                    <p>KK</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Bhool Bhulaiyaa (feat. KK)</td>
+                            <td class="album-info ">27 May 2007</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">5:54</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">5</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Humnava-Mere-Hindi-2018-20180522-500x500.jpg" alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Humnava Mere</h6>
+                                    <p>Jubin Nautiyal</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Humnava Mere (feat. Jubin Nautiyal)</td>
+                            <td class="album-info ">04 August 2018</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">5:29</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">6</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Kaise-Hua-From-Kabir-Singh--Hindi-2019-20190613075009-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Kaise Hua</h6>
+                                    <p>Vishal Mishra</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Kabir Singh (feat. Vishal Mishra)</td>
+                            <td class="album-info ">02 March 2019</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">3:54</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">7</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Brahmastra-Original-Motion-Picture-Soundtrack-Hindi-2022-20221006155213-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Kesariya</h6>
+                                    <p>Arijit Singh</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Brahmastra (feat. Arijit Singh)</td>
+                            <td class="album-info ">09 November 2022</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">4:28</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">8</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Dhadkan-Hindi-2000-20210226131403-500x500.jpg" alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Dil Ne Ye Kaha Hai Dil Se</h6>
+                                    <p>Udit Narayan</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Dhadkan (feat. Udit Narayan)</td>
+                            <td class="album-info ">24 December 2000</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">7:30</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 num-icon">9</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/OMG-2-Hindi-2023-20230818134404-500x500.jpg" alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Har Har Mahadev</h6>
+                                    <p>Vikram Montrose</p>
+                                </div>
+                            </td>
+                            <td class="album-info">OMG2 (feat. Vikram Montrose)</td>
+                            <td class="album-info ">11 August 2023</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">3:07</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+
+                        <tr class="songs-start py-2">
+                            <td class="ps-2 py-3 pe-1 num-icon">10</td>
+                            <td class="d-flex justify-content-start align-items-center title-sec">
+                                <img src="./Images/Music Images/Manike-From-Thank-God-Hindi-2022-20220920201002-500x500.jpg"
+                                    alt="#">
+                                <div class="title-info d-flex justify-content-start flex-column">
+                                    <h6 class="mb-0 mt-3">Manike</h6>
+                                    <p>Jubin Nautiyal</p>
+                                </div>
+                            </td>
+                            <td class="album-info">Thank God (feat. Jubin Nautiyal)</td>
+                            <td class="album-info ">16 September 2022</td>
+                            <td class="text-end">
+                                <span><i class="fa-regular fa-heart" style="color: #ffffff;"></i></span>
+                                <span class="px-2">3:17</span>
+                                <span><i class="fa-solid fa-ellipsis pe-1" style="color: #ffffff;"></i></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- player -->
+    <div class="player d-flex justify-content-between align-items-center">
+        <!-- song -->
+        <div class="song d-flex justify-content-start align-items-center">
+            <img src="./Images/Music Images/Heeriye.jpg" alt="#">
+            <div class="music-info">
+                <p class="dream">Heeriye</p>
+                <p class="author">Arijit Singh</p>
+            </div>
+            <i class="fa-regular fa-heart ms-4 fs-4" style="color: #b9b9b9;"></i>
+            <i class="fa-solid fa-tv ms-4 fs-5" style="color: #b9b9b9;"></i>
+        </div>
+        <!-- mid part -->
+        <div class="mid-player-part">
+            <div class="player-action d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-backward-step" style="color: #ffffff;"></i>
+                <div class="player-icons">
+                    <i class="fa-solid fa-play fs-5" style="color: #000000;"></i>
+                </div>
+                <i class="fa-solid fa-forward-step" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+            </div>
+            <div class="music-bar d-flex justify-content-start align-items-center mb-3 ">
+                <span class="pe-2">0:00</span>
+                <div class="player-line"></div>
+                <span class="ps-2">5:42</span>
+            </div>
+        </div>
+        <!-- small icons -->
+        <div class="small-icons d-flex justify-content-end align-items-center pe-4">
+            <img src="./Images/Group 6.png" alt="#">
+            <img src="./Images/Group 7.png" alt="#">
+            <img src="./Images/fluent_speaker-2-24-regular.png" style="width: 37px !important; height: 29px !important;" alt="#">
+            <span class="volume"></span>
+        </div>
+    </div>
+
+</body>
+
+</html>
